@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: darkolivegreen;
+}
+
+#style-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
